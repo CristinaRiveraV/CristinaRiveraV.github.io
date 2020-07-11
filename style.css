@@ -1,7 +1,11 @@
-.hompage {
+.home_page {
   
   background-color: #a09c9c; 
   color: #a09c9c; 
+}
+
+.content {
+  background-image: url('/images/in_contruction.jpg');
 }
 
 
