@@ -15,6 +15,11 @@
   
 </head>
 <body class="content">
+
+  <header>
+    Cristina Rivera
+  </header>
+
   <nav class="menu_bar">
     <ul>
       <li id="menu_item_home" class="menu_item"><a href="/index.html">Home</a></li>
@@ -22,29 +27,45 @@
       <li id="menu_item_cv" class="menu_item"><a href="cv.htm">My CV</a></li>
       <li id="menu_item_contact" class="menu_item"><a href="contact.htm">Contact Me</a></li>
     </ul>
-    
   </nav>
-  <div class="contact" id="linkedin">
-  <a href="https://www.linkedin.com/in/cristina-rivera-valdez/" target="_blank"> Linkedin</a>
-  </div>      
-  <div class="contact" id="email">
-    <p>Email: cristina.rivera.valdez@gmail.com</p>
-  </div>  
-  <div class="contact" id="mobile">
-    <p>Mobile: 07759405300</p>
-  </div>  
-  <div class="contact" id="github">
-    <a href="https://github.com/CristinaRiveraV" target="_blank"> My Github</a>
-    <a href="https://github.com/clr3" target="_blank"> Old Github</a>
-  </div> 
-  
+
+  <main>
+    <section name="contactform">
+      <form ><!--still need to add action="" and method="" -->
+        Fill in the following form:<br>
+        <label for="formname">*Full Name:</label>
+        <input type="text" name="formname" required><br>
+        <label for="femail">*Email:</label>
+        <input type="text" name="femail" required><br>
+        <label for="fmessage">*Message:</label> <br>
+        <textarea name="fmessage" rows="10" cols="40" required></textarea>  <br>
+        <input type="submit" value="Send"><br>
+        * items are required.
+      </form>
+    </section>
+    <section name="contactdetails">
+      <article class="contact" id="linkedin">
+        <a href="https://www.linkedin.com/in/cristina-rivera-valdez/" target="_blank"> Linkedin</a>
+      </article>      
+      <article class="contact" id="email">
+        <p>Email: cristina.rivera.valdez@gmail.com</p>
+      </article>  
+      <article class="contact" id="mobile">
+        <p>Mobile: 07759405300</p>
+      </article>  
+      <article class="contact" id="github">
+        <a href="https://github.com/CristinaRiveraV" target="_blank"> My Github</a>
+        <a href="https://github.com/clr3" target="_blank"> Old Github</a>
+      </article> 
+    </section>
+    
+  </main>
   
   <footer >
     <ul>
-      <li class="contact" id="email"><p>Email: cristina.rivera.valdez@gmail.com</p></li>
-      <li class="contact" id="mobile"><p>Mobile: 07759405300</p></li>
+      <li class="contact" id="email"><p>Email me at: cristina.rivera.valdez@gmail.com </p></li>
+      <!--<li class="contact" id="mobile"><p>Mobile: 07759405300</p></li>-->
     </ul>
-
-  </footer>
+  </footer> 
 
 </body>
