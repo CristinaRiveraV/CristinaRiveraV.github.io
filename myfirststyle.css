@@ -92,9 +92,12 @@ footer{
 
 
 body main .contactform label{
-  text-align: end;
-  padding: 8px 20px;
-
+  visibility: collapse;
+  display: none;
+}
+.contactform p{
+  float: right;
+  width: 80%;
 }
 .contactdetails{
   position: fixed;
@@ -104,7 +107,7 @@ body main .contactform label{
 }
 
 .contact{
-  display: inline-block
+  display: inline-block;
 }
 .contact i.fas,
 .contact i.fab {
