@@ -99,6 +99,12 @@ body main .contactform label{
   float: right;
   width: 80%;
 }
+
+.contactform input[type="submit"]{
+  color: rgb(251, 255, 1);
+  background-color: rgb(112, 100, 194);
+  padding: 10px;
+}
 .contactdetails{
   position: fixed;
   bottom: 40px;
