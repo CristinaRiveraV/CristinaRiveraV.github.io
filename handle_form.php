@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<link rel="stylesheet" href="/myfirststyle.css">
+<html>
+    
+<link rel="stylesheet" href="myfirststyle.css">
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Russo+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-
 <script src="myscript.js"></script>
 
 <head>
@@ -21,23 +19,31 @@
   <header>
     Cristina Rivera
   </header>
-    
+
   <nav class="menu_bar">
     <ul>
       <li id="menu_item_home" class="menu_item"><a href="/index.html">Home</a></li>
       <!--<li id="menu_item_projects" class="menu_item"><a href="htm_files/projects.html">Projects</a></li>-->
       <li id="menu_item_cv" class="menu_item"><a href="cv.htm">My CV</a></li>
-      <li id="menu_item_contact" class="menu_item"><a href="contact.php">Contact Me</a></li>    </ul>
+      <li id="menu_item_contact" class="menu_item"><a href="contact.htm">Contact Me</a></li>
+    </ul>
   </nav>
 
-  <main class="cv">
-
-    <div class="personalprofile">
-      <h2 class="pprof" title="Personal Profile">Personal Profile</h2>
-      <article><p>During the past year I’ve been working in a local shop, originally as a part time job but full time during the covid-19
-        pandemic. Now that my visa has been processed, I am ready to put my transferable skills to work in the industry
-        that would most benefit from it. </p></article>
-    </div>  
+  <main class="home_page">
+    <div class="form_response">
+      <h1 title="Hello!"><samp> Thank you! </samp></h1>
+      
+      <h2 title="Appologies"> The data is NOT being processed. Please send me an email. </h2>
+      
+      </div>
   </main>
 
+
+  <footer >
+    <ul>
+      <li class="contact" id="email"><p>Email me at: cristina.rivera.valdez@gmail.com </p></li>
+      <!--<li class="contact" id="mobile"><p>Mobile: 07759405300</p></li>-->
+    </ul>
+  </footer>
 </body>
+</html>
