@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link rel="stylesheet" href="myfirststyle.css">
+<link rel="stylesheet" href="/styles/myfirststyle.css">
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Russo+One&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 <script src="myscript.js"></script>
@@ -23,14 +23,10 @@
   </header>
   <!-- Creating a naveegation menu for the webpage-->
   
-  <nav>
-    <ul >
-      <li id="menu_item_home" class="menu_item"><a href="/index.html">Home</a></li>
-      <!--<li id="menu_item_projects" class="menu_item"><a href="htm_files/projects.html">Projects</a></li>-->
-      <li id="menu_item_cv" class="menu_item"><a href="htm_files/cv.htm">My CV</a></li>
-      <li id="menu_item_contact" class="menu_item"><a href="htm_files/contact.htm">Contact Me</a></li>
-    </ul>
-  </nav>
+<?php 
+  include "nav_menu.php";
+?>
+
   
   <main class="home_page">
     <div class="introduction_text">

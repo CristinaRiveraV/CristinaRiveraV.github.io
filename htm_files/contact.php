@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link rel="stylesheet" href="/myfirststyle.css">
+<link rel="stylesheet" href="/styles/myfirststyle.css">
 <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Russo+One&display=swap" rel="stylesheet">
 
 <head>
@@ -21,19 +21,15 @@
     Cristina Rivera
   </header>
 
-  <nav class="menu_bar">
-    <ul>
-      <li id="menu_item_home" class="menu_item"><a href="/index.html">Home</a></li>
-      <!--<li id="menu_item_projects" class="menu_item"><a href="htm_files/projects.html">Projects</a></li>-->
-      <li id="menu_item_cv" class="menu_item"><a href="cv.htm">My CV</a></li>
-      <li id="menu_item_contact" class="menu_item"><a href="contact.htm">Contact Me</a></li>
-    </ul>
-  </nav>
+ <?php 
+    include "nav_menu.php";
+ ?>
 
   <main>
+    <!---
     <section >
       <div class="contactform">
-      <form ><!--still need to add action="" and method="" -->
+      <form ><!--still need to add action="" and method="" 
         <br>
         <label for="formname" >*Full Name:</label>
         <input type="text" name="formname" required placeholder="* Full Name"><br>
@@ -45,7 +41,7 @@
         <p>* items are required.</p>
       </form>
       </div>
-    </section>
+    </section>--->
     <section class="contactdetails">
       <article class="contact github">
         <article class="contact mobile">
