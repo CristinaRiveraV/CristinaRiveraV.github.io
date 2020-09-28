@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link rel="stylesheet" href="/styles/myfirststyle.css">
-<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Russo+One&display=swap" rel="stylesheet">
+<?php include "background/main_style.php" ?>
+<link rel="stylesheet" href="/styles/contact.css">
 
 <head>
   <meta charset="UTF-8">
@@ -17,12 +17,10 @@
 </head>
 <body>
 
-  <header>
-    Cristina Rivera
-  </header>
+<?php include "background/header.php" ?>
 
  <?php 
-    include "nav_menu.php";
+    include "background/nav_menu.php";
  ?>
 
   <main>
@@ -60,11 +58,6 @@
     
   </main>
   
-  <footer >
-    <ul>
-      <li class="contact" id="email"><p>Email me at: cristina.rivera.valdez@gmail.com </p></li>
-      <!--<li class="contact" id="mobile"><p>Mobile: 07759405300</p></li>-->
-    </ul>
-  </footer> 
+  <?php  include "background/footer.php"; ?>  
 
 </body>

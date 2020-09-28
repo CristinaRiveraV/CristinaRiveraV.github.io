@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<link rel="stylesheet" href="/myfirststyle.css">
+<?php include "background/main_style.php" ?>
 
 <head>
     <meta charset="UTF-8">
@@ -26,4 +26,5 @@
         </ul>
         </nav>
         
+    <?php  include "background/footer.php"; ?>     
   </body>

@@ -1,6 +1,6 @@
 
 <section class="education">
-<h2 name="edu" title="Education">Education</h2>
+
   <article>
     <h3>Bachelor of Engineering Robotics, Autonomous and Interactive Systems<br>
       Heriot Watt University (2015 – May 2019)</h3>

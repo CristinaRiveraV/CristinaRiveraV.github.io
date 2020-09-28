@@ -1,7 +1,7 @@
 
   <main class="cv">
     <section class="workexperience">
-      <h2> Work Experience</h2>
+     
       <article name="work_exp" title="Work Experience">
     
         <section class="margiotta">

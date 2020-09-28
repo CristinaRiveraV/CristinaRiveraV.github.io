@@ -1,7 +1,7 @@
   <main class="cv">
     <div class="skills">
       
-      <h2 title="Skills"> Skills</h2>
+      
 
       <article>
         <section name="software">

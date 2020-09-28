@@ -1,0 +1,12 @@
+header{
+    color: rgb(255, 193, 21);
+    background-color: rgb(53, 15, 97);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size:30px;
+    padding: 5px;
+    font-family: Russo One;
+    font-size: 30px;
+    z-index: 5;
+  }
+  
