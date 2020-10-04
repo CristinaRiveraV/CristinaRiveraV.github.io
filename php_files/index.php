@@ -14,15 +14,15 @@
   <title>Cristina's portfolio - Welcome</title>
 </head>
 
-<body >
-  
+<body class="tab">                                                                
+                                                                                          
   <?php include "background/header.php" ?>
 
   <!-- Creating a naveegation menu for the webpage-->
   <?php include "background/nav_menu.php"; ?>
 
   
-  <main class="home_page">
+  <main class="home">
     <div class="introduction_text">
       <h1 title="Hello!"><samp> Hello World!</samp></h1>
       

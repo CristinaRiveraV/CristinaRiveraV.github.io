@@ -3,7 +3,7 @@
   width: 160px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 0; /* Stay on back */
-  top: 93px; /* Stay under the header and menu */
+  top: 85px; /* Stay under the header and menu */
   left: 0;
   background-color: #111; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
@@ -29,24 +29,25 @@
   }
 
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .accordion:hover {
+.accordion:hover {
     background-color: #ccc;
     color: rgb(99, 13, 126);
   }
 
-/* Style the accordion panel. Note: hidden by default */
-.panel {
+/* Style panels holding the text. Note: hidden by default */
+.panel  {
     padding: 14px;
     display: none;
     overflow: hidden;
   }
-/*Show personal profile when page starts 
-.personal_profile_b{
+/* position text panel for a desktop*/  
+  .text_panel { 
+    display: block;
+    margin-left: 160px;
+    z-index: 3;
+  }
+/*Show personal profile when page starts */
+.cv .active{
   background-color: rgb(167, 140, 54);
-  color: #000000;
+  color: rgb(57, 14, 70);
 }
-#personal_profile{
-  display: block;
-  margin-left: 160px;
-  z-index: 3;
-}*/

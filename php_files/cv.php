@@ -14,7 +14,7 @@
   <title>Cristina's portfolio - cv</title>                                                     
 </head>
 
-<body>
+<body class="tab cv">
   
   <?php include "background/header.php" ?>
   
@@ -28,7 +28,7 @@
       <li id="cv_item_edu" class="cv_item"><a href="cv-education.php"> Education</a></li>
       <li id="cv_item_workexp" class="cv_item"><a href="cv-workexp.php"> Work Experience</a></li>
     </ul>
--->
+  -->
     </div> 
   </main>
 

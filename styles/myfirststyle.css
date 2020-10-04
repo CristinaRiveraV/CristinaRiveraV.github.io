@@ -11,7 +11,7 @@ body{
  }
 
 
-.home_page{
+.home{
   background-color: #000000a1; 
   border: 2px dotted rgb(126, 121, 121);
   margin: auto;
@@ -22,12 +22,12 @@ body{
   position: relative;
   top: 85px;
 }
-.home_page samp{
+.home samp{
   font-family: 'Press Start 2P', cursive;
   font-size: larger;
   color: #44ceab;
 }
-.home_page h2{
+.home h2{
   font-size: larger;
   color: rgb(114, 235, 208);
   }
@@ -69,9 +69,6 @@ body main .contactform label{
   
 }
 
-.contact{
-  display: inline-block;
-}
 .contact i.fas,
 .contact i.fab {
     color: rgb(3, 2, 5);

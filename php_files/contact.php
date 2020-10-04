@@ -15,9 +15,10 @@
   <script src="https://kit.fontawesome.com/982a230181.js" crossorigin="anonymous"></script>
   
 </head>
-<body>
 
-<?php include "background/header.php" ?>
+<body class="tab contact">
+
+  <?php include "background/header.php" ?>
 
  <?php 
     include "background/nav_menu.php";
@@ -27,7 +28,7 @@
     <!---
     <section >
       <div class="contactform">
-      <form ><!--still need to add action="" and method="" 
+      <form ><!-still need to add action="" and method="" 
         <br>
         <label for="formname" >*Full Name:</label>
         <input type="text" name="formname" required placeholder="* Full Name"><br>
