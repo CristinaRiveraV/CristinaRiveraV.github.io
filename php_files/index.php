@@ -14,7 +14,7 @@
   <title>Cristina's portfolio - Welcome</title>
 </head>
 
-<body class="tab">                                                                
+<body class="home">                                                                
                                                                                           
   <?php include "background/header.php" ?>
 
@@ -22,7 +22,7 @@
   <?php include "background/nav_menu.php"; ?>
 
   
-  <main class="home">
+  <main class="start">
     <div class="introduction_text">
       <h1 title="Hello!"><samp> Hello World!</samp></h1>
       

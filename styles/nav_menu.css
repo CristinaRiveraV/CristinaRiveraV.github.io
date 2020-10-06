@@ -16,7 +16,7 @@ nav ul{
     font-family: Bangers;
   }
   
-  nav ul li a:hover, .menu_bar .active a{
+  nav ul li a:hover, nav .active a{
     background-color: rgb(255, 208, 0);
     color:rgb(3, 2, 5) ;
     border-radius: 15px 15px 0px 0px;

@@ -16,7 +16,7 @@
   
 </head>
 
-<body class="tab contact">
+<body class="contact">
 
   <?php include "background/header.php" ?>
 

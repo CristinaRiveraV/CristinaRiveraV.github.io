@@ -14,7 +14,7 @@
   <title>Cristina's portfolio - cv</title>                                                     
 </head>
 
-<body class="tab cv">
+<body class="cv">
   
   <?php include "background/header.php" ?>
   
