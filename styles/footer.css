@@ -1,0 +1,10 @@
+
+footer{
+    background-color: rgb(3, 2, 5);
+    color: rgb(202, 181, 221);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  
