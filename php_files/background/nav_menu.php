@@ -2,7 +2,7 @@
 
 <nav class="menu_bar">
   <ul>
-    <li id="home" class="menu_item"><a href="home.php">Home</a></li>
+    <li id="home" class="menu_item"><a href="/index.php">Home</a></li>
     <!--<li id="menu_item_projects" class="menu_item"><a href="htm_files/projects.html">Projects</a></li>-->
     <li id="cv" class="menu_item"><a href="/php_files/cv.php">My CV</a></li>
     <li id="contact" class="menu_item"><a href="/php_files/contact.php">Contact Me</a></li>

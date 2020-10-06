@@ -3,7 +3,6 @@
 
 <?php include "background/main_style.php" ?>
 
-
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="portfolio - my first webpage">
