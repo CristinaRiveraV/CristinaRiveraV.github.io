@@ -1,44 +1,91 @@
-  <main class="cv">
-    <div class="skills">
+<link rel="stylesheet" href="/styles/skills.css">
+<div class="skills">
       <article>
-        <section name="software">
-          <h3>Software</h3>
-          <ul>
-            <li>Microsoft Office</li>
-            <li>Eclipse</li>
-            <li>Visual Studio</li>
-            <li>Pro Tools</li>
-            <li>WEKA (for machine learning)</li>
-            <li>ROS (Robot Operating System)</li>
-            <li>Ubuntu and Unix</li>
-          </ul>
-        </section>
+       
+       
         <section name="progamminglangs">
-          <h3>Programming Languages</h3>
+          <h3><i class="far fa-keyboard"></i>Programming Languages</h3>
           <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>C++</li>
-            <li>UML</li>
-            <li>C#</li>
-            <li>HTML and CSS</li>
+            <li>Java  
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:90%"></div></div></li>
+            <li>Python
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:75%"></div></div>
+            </li>
+            <li>C++
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:75%"></div></div>
+            </li>
+            <li>UML
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:55%"></div></div>
+            </li>
+            <li>C#  
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:55%"></div></div></li>
+            <li>HTML, PHP and CSS
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:40%">Learning...</div></div>
+            </li>
+            <li>JavaScript
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:20%">Leaning</div></div>
+            </li>
           </ul>
         </section>
         <section name="languages">
-          <h3>Languages</h3>
+          <h3><i class="fa fa-globe fa-fw"></i>Languages</h3>
           <ul>
-            <li>English</li>
-            <li>Spanish (Native Speaker)</li>
+            <li>English           
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:100%"></div></div></li>
+            <li>Spanish (Native Speaker)
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:100%"></div></div></li>
+          </ul>
+        </section>
+        <section name="software">
+          <h3><i class="fas fa-desktop"></i>Software</h3>
+          <ul>
+            <li>Microsoft Office</li>
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:100%"></div></div></li>
+            <li>Eclipse</li>
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:80%"></div></div></li>
+            <li>Visual Studio</li>
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:80%"></div></div></li>
+            <li>Pro Tools</li>
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:30%"></div></div></li>
+            <li>WEKA (for machine learning)
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:70%"></div></div></li>
+            </li>
+            <li>ROS (Robot Operating System)
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:65%"></div></div></li></li>
+            <li>Ubuntu and Unix
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:60%"></div></div></li></li>
           </ul>
         </section>
         <section name="others">
-          <h3>Others</h3>
+          <h3><i class="fas fa-pepper-hot"></i>Others</h3>
           <ul>
-            <li>Github</li>
-            <li>AGILE development (SCRUM)</li>
+            <li>Github
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:100%"></div></div>
+            </li>
+            <li>AGILE development (SCRUM)
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:80%"></div></div>
+            </li>
           </ul>
         </section>
       </article>
 
-    </div>  
-  </main>
+</div>  
+

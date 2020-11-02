@@ -2,6 +2,7 @@
 <html lang="en">
   
 <?php include "background/main_style.php" ?>
+<link rel="stylesheet" href="/styles/cv.css">
 
 <!--Preacticing semantic HTML and basic elements and structures-->
 <head>
@@ -11,7 +12,9 @@
   <meta name="author" content="Cristina Rivera">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
-  <title>Cristina's portfolio - cv</title>                                                     
+  <title>Cristina's portfolio - cv</title>          
+  
+  
 </head>
 
 <body class="cv">
@@ -20,17 +23,9 @@
   
   <?php  include "background/nav_menu.php"; ?>
 
-  <?php include "background/cv/accordion.php"?>
-    <!--
-    <ul>
-      <li id="cv_item_pprof" class="cv_item"><a href="cv-pp.php">Personal Profile</a></li>
-      <li id="cv_item_skills" class="cv_item"><a href="cv-skills.php"> Skills</a></li>
-      <li id="cv_item_edu" class="cv_item"><a href="cv-education.php"> Education</a></li>
-      <li id="cv_item_workexp" class="cv_item"><a href="cv-workexp.php"> Work Experience</a></li>
-    </ul>
-  -->
-    </div> 
-  </main>
+  <?php include "background/cv/mainLeft_column.php"?>
+   
+ 
 
   <?php  include "background/footer.php"; ?>  
 

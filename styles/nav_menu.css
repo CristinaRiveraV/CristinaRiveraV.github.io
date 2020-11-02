@@ -1,4 +1,8 @@
-
+nav{
+  position: sticky;
+  top: 40px;
+  z-index: 8;
+}
 nav ul{
     background-color: rgb(3, 2, 5);
     width: 100%;

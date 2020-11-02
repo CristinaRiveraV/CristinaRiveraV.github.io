@@ -1,0 +1,17 @@
+.back{
+    background-color: rgba(115, 54, 184, 0.438);
+    width: 90%;
+    margin: auto;
+} 
+.front{
+    background-color: rgb(53, 15, 97);
+    color:rgb(149, 84, 224);
+    font-size: 16px;
+}
+.fa, .fas, .far{
+   color: rgb(53, 15, 97);
+}
+.skill_bar{
+    border-radius: 35px;
+    height:18px;
+}
