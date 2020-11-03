@@ -5,13 +5,16 @@
 } 
 .front{
     background-color: rgb(53, 15, 97);
-    color:rgb(149, 84, 224);
-    font-size: 16px;
+    
 }
-.fa, .fas, .far{
-   color: rgb(53, 15, 97);
-}
+
 .skill_bar{
     border-radius: 35px;
     height:18px;
+}
+
+.skill_bar p{
+    padding-left: 5px; 
+    font-size: small;
+    color:rgb(149, 84, 224);
 }

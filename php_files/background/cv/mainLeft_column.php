@@ -17,12 +17,11 @@
     </div>
   
     <div class="intro">
-      <p><i class=""></i>Graduate in Robotics, Autonomous and Interactive Systems at Herriot-Watt University (2019)</p>
-      <p><i class="fa fa-home fa-fw"></i>Edinburgh, UK</p>
-      <p><i class="fa fa-envelope fa-fw"></i>cristina.rivera.valdez@gmail.com</p>
-      <p><i class="fa fa-phone fa-fw"></i>07759405300</p>
-      <hr>
-        
+      <p>Graduate in Robotics, Autonomous and Interactive Systems (2019)</p><br>
+      <p><i class="fa fa-home"></i>Edinburgh, UK</p>
+      <p><i class="fa fa-envelope"></i>cristina.rivera.valdez@gmail.com</p>
+      <p><i class="fa fa-phone"></i>07759405300</p>
+              
     </div><br>
     <?php include "background/cv/skills.php" ?>
   <!-- End Left Column -->

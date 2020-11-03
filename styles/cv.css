@@ -1,35 +1,16 @@
-.wrapper, .cv_container {
+/* Creating the grid**/
+.cv_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(200px, auto);
   width: 90%;
+  margin: auto;
+  margin-top: 65px;
+  position: relative;
+  top: auto;
+  bottom: 50px;
 }
-.one {
-  grid-column: 1 / 2;
-  grid-row: 1;
-}
-.two { 
-  grid-column: 2 / 4;
-  grid-row: 1 / 3;
-}
-.three {
-  grid-column: 1;
-  grid-row: 2 / 5;
-}
-.four {
-  grid-column: 3;
-  grid-row: 3;
-}
-.five {
-  grid-column: 2;
-  grid-row: 4;
-}
-.six {
-  grid-column: 3;
-  grid-row: 4;
-}
-
 
 .third_left, .third{
   grid-column: 1/2;
@@ -52,12 +33,40 @@
   grid-column: 1/2;
   grid-row: 2;
 }
+/*Making all items look the same**/
+  /*Backgrounf colour */
 .cv_display{
-  border-style: double;
-  border-width: 10px;
-  background-color: #00000059; 
+  border-radius: 15px;
+  background-color: #00000036; 
   text-align: left;
+  padding: 15px;
 }
+  /*Image diplay*/
 .display_img img{
-    border-radius: 350px;
+  border-radius: 350px;
+}
+.display_img{
+  width: 80%;
+  margin: auto;
+}
+  /*icons*/
+.fa, .fas, .far{
+  color: rgb(53, 15, 97);
+  padding: 5px;
+}
+  /*Headers*/
+.cv h3, .cv h2{
+  padding: 5px;
+  font-size: larger;
+}
+.cv h4{
+  padding: 10px;
+}
+  /*text*/
+.cv p, .cv li{
+    padding-left: 20px;
+  }
+.cv ul li{
+  list-style-type:none;
+
 }
