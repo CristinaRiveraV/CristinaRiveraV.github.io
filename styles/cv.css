@@ -4,7 +4,7 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
   grid-auto-rows: minmax(200px, auto);
-  width: 90%;
+  width: 800px;
   margin: auto;
   margin-top: 65px;
   position: relative;
@@ -69,4 +69,12 @@
 .cv ul li{
   list-style-type:none;
 
+}
+/*intro text*/
+.intro p{
+  padding-left: 0;
+  
+}
+.intro .email{
+  font-size: 12px;
 }
