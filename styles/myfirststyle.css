@@ -1,36 +1,37 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
 
 body{
-  background-color: rgb(236, 228, 241);
-  text-align: center;
- }
+background-color: rgb(236, 228, 241);
+text-align: center;
+}
 
 
 .start{
-  background-color: #000000a1; 
-  border: 2px dotted rgb(126, 121, 121);
-  margin: auto;
-  padding:25px;
-  width: 80%;
-  font-size: large;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  position: relative;
-  top: 85px;
+background-color: #000000a1; 
+border: 2px dotted rgb(126, 121, 121);
+margin: auto;
+padding:25px;
+width: 80%;
+font-size: large;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+position: relative;
+top: 85px;
 }
 .start samp{
-  font-family: 'Press Start 2P', cursive;
-  font-size: larger;
-  color: #44ceab;
+font-family: 'Press Start 2P', cursive;
+font-size: larger;
+color: #44ceab;
 }
 .start h2{
-  font-size: larger;
-  color: rgb(114, 235, 208);
-  }
+font-size: larger;
+color: rgb(114, 235, 208);
+}
 
 .contactform{
   
