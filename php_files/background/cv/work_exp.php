@@ -5,7 +5,7 @@
       <article name="work_exp" title="Work Experience">
         <h2><i class="fas fa-suitcase"></i>Work Experince</h2>
         <section class="margiotta">
-          <h3>Baker and General Assistant (14 May 2019 – Present) <br>
+          <h3>Baker and General Assistant (14 May 2019 – Present) <br></br>
           <em>Margiotta, Ashley Terrace</em></h3>
           <h4>Key Responsibilities</h4>
           <ul class="keyresp">
@@ -20,7 +20,7 @@
         </section>
        
         <section class="classrep">
-          <h3>Class Representative (Sept 2015 – May 2019)<br>
+          <h3>Class Representative (Sept 2015 – May 2019)<br></br>
             <em>Heriot Watt University</em></h3>
           <p>As a class representative I oversaw communication between students and the teaching body of the university in order
             to solve any academic problems encountered by my class, as well as helped develop a better course organization for
@@ -28,7 +28,7 @@
         </section>
        
         <section class="movementtowork">
-          <h3>Movement to work (Aug 19 – 31, 2019)<br>
+          <h3>Movement to work (Aug 19 – 31, 2019)<br><br>
             <em>British Gas</em></h3>
           <p>This was an opportunity to spend time in an office environment. During this 2-week program I had the chance to listen
             into some phone calls and shadow a gas engineer for a day, learning great examples of good costumer service.</p>
