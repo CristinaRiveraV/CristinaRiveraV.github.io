@@ -23,7 +23,7 @@
               environment whilst moving around and avoiding obstacles. The robot
               then could use the map to navigate the area to a specified location on the
               obtained map. </li><br>
-            <li><i class="fas fa-laptop-code"></i><strong>Engineers Without Borders.</strong></trong> Multidisciplinary project working with
+            <li><i class="fas fa-laptop-code"></i><strong>Engineers Without Borders.</strong> Multidisciplinary project working with
               chemical engineers, mechanical engineers and electrical engineers
               The objective was to design a product to help reduce pollution in Africa.
               At the end, the project was presented to a group of judges. </li><br>
