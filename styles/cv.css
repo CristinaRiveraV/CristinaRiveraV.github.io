@@ -78,3 +78,23 @@
 .intro .email{
   font-size: 12px;
 }
+.back{
+  background-color: rgba(115, 54, 184, 0.438);
+  width: 90%;
+  margin: auto;
+} 
+.front{
+  background-color: rgb(53, 15, 97);
+  
+}
+
+.skill_bar{
+  border-radius: 35px;
+  height:18px;
+}
+
+.skill_bar p{
+  padding-left: 5px; 
+  font-size: small;
+  color:rgb(149, 84, 224);
+}
