@@ -18,3 +18,12 @@
     font-size: small;
     color:rgb(149, 84, 224);
 }
+.learning{
+    animation-name: bar_animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+@keyframes bar_animation{
+   100%{width: 100%;}
+}

@@ -23,10 +23,10 @@
                 <div class="front skill_bar" style="width:55%"></div></div>
             <li>HTML, PHP and CSS</li>
               <div class="back skill_bar">
-                <div class="front skill_bar" style="width:40%"><p>Learning...</p></div></div>
+                <div class="front skill_bar learning" style="width:40%"><p>Learning...</p></div></div>
             <li>JavaScript</li>
               <div class="back skill_bar">
-                <div class="front skill_bar" style="width:20%"><p>Leaning</p></div></div>
+                <div class="front skill_bar learning" style="width:20%"><p>Leaning</p></div></div>
           </ul>
         </section>
         <section name="languages">
