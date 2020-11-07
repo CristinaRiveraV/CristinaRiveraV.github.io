@@ -33,10 +33,9 @@ font-size: larger;
 color: rgb(114, 235, 208);
 }
 
+/*code for a contact form*/
 .contactform{
-  
-  width: 80%;
-  
+    width: 80%;
 }
 
 .contactform input[type=text], .contactform textarea{
@@ -46,8 +45,6 @@ color: rgb(114, 235, 208);
   border: 1.5px solid rgb(3, 2, 5);
   border-radius:5px;
 }
-
-
 
 body main .contactform label{
   visibility: collapse;

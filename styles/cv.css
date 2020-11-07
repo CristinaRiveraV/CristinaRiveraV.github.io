@@ -55,18 +55,18 @@
   padding: 5px;
 }
   /*Headers*/
-.cv h3, .cv h2{
+.cv_container h3{
   padding: 5px;
   font-size: larger;
 }
-.cv h4{
+.cv_container h4{
   padding: 10px;
 }
   /*text*/
-.cv p, .cv li{
+.cv_container p, .cv_container li{
     padding-left: 20px;
   }
-.cv ul li{
+.cv_container ul li{
   list-style-type:none;
 
 }
