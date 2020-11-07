@@ -42,19 +42,13 @@
       </div>
     </section>--->
     <section class="contactdetails">
-      <article class="contact github">
-        <article class="contact mobile">
-          <p title="Mobile"><i class="fas fa-phone-alt"></i>Mobile: 07759405300</p>
-        </article> 
-        <a href="https://github.com/CristinaRiveraV" target="_blank" title="My Github"> <i class="fab fa-github fa-5x"></i></a>
-        <a href="https://github.com/clr3" target="_blank" title="Old Github"><i class="fab fa-github-square fa-5x"></i></a>
-      </article> 
-      <article class="contact linkedin">
-        <a href="https://www.linkedin.com/in/cristina-rivera-valdez/" target="_blank" title="Linkedin"> <i class="fab fa-linkedin fa-5x"></i></a>
-      </article>      
-      
-       
-     
+      <p class="contact email"><i class="fas fa-envelope"></i>cristina.rivera.valdez@gmail.com</p>
+      <p class="contact phone"><i class="fas fa-phone"></i>07759405300</p>
+      <div class="links">
+        <a class="contact github" href="https://github.com/CristinaRiveraV" target="_blank" title="My Github"> <i class="fab fa-github fa-3x"></i></a>
+        <a class="contact old_github"href="https://github.com/clr3" target="_blank" title="Old Github"><i class="fab fa-github-square fa-3x"></i></a>
+        <a href="https://www.linkedin.com/in/cristina-rivera-valdez/" target="_blank" title="Linkedin"> <i class="fab fa-linkedin fa-3x"></i></a>
+      </div>     
     </section>
     
   </main>

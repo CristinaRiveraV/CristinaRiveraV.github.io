@@ -1,0 +1,19 @@
+.contactdetails{
+  background-color: #00000036; 
+  width: 300px;
+  margin: auto;
+  margin-top: 65px;
+  text-align: left;
+  border-radius: 15px;
+  padding: 15px;
+}
+  
+.contact i.fas,
+ .contact i.fab {
+  color: rgb(3, 2, 5);
+  padding: 5px;
+}
+.links{
+    margin: auto;
+    text-align: center;
+}
