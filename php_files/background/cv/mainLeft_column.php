@@ -19,9 +19,7 @@
     <div class="intro">
       <p>Graduate in Robotics, Autonomous and Interactive Systems (2019)</p><br>
       <p class="contact loc"><i class="fa fa-home"></i>Edinburgh, UK</p>
-      <p class="contact email"><i class="fa fa-envelope"></i>cristina.rivera.valdez@gmail.com</p>
-      <p class="contact phone"><i class="fa fa-phone"></i>07759405300</p>
-              
+             
     </div><br>
     <?php include "background/cv/skills.php" ?>
   <!-- End Left Column -->

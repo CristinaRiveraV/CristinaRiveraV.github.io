@@ -33,10 +33,10 @@ body{
   color: rgb(114, 235, 208);
   }
 
+
+/*Code for a contact form*/  
 .contactform{
-  
   width: 80%;
-  
 }
 
 .contactform input[type=text], .contactform textarea{
@@ -46,8 +46,6 @@ body{
   border: 1.5px solid rgb(3, 2, 5);
   border-radius:5px;
 }
-
-
 
 body main .contactform label{
   visibility: collapse;
@@ -63,13 +61,3 @@ body main .contactform label{
   background-color: rgb(112, 100, 194);
   padding: 10px;
 }
-.contactdetails{
-  position: fixed;
-  bottom: 40px;
-  width: 100%;
-  }
-
-.contact i.fas,
-.contact i.fab {
-    color: rgb(3, 2, 5);
-  }
