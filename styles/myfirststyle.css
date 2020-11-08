@@ -60,13 +60,4 @@ body main .contactform label{
   background-color: rgb(112, 100, 194);
   padding: 10px;
 }
-.contactdetails{
-  position: fixed;
-  bottom: 40px;
-  width: 100%;
-  }
 
-.contact i.fas,
-.contact i.fab {
-    color: rgb(3, 2, 5);
-  }
