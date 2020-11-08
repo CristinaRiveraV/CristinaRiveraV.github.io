@@ -17,7 +17,7 @@ background-color: #000000a1;
 border: 2px dotted rgb(126, 121, 121);
 margin: auto;
 padding:25px;
-width: 80%;
+width: 600px;
 font-size: large;
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 position: relative;
@@ -32,32 +32,3 @@ color: #44ceab;
 font-size: larger;
 color: rgb(114, 235, 208);
 }
-
-/*code for a contact form*/
-.contactform{
-    width: 80%;
-}
-
-.contactform input[type=text], .contactform textarea{
-  width:70%;
-  padding:8px 20px;
-  margin: 8px;
-  border: 1.5px solid rgb(3, 2, 5);
-  border-radius:5px;
-}
-
-body main .contactform label{
-  visibility: collapse;
-  display: none;
-}
-.contactform p{
-  float: right;
-  width: 80%;
-}
-
-.contactform input[type="submit"]{
-  color: rgb(251, 255, 1);
-  background-color: rgb(112, 100, 194);
-  padding: 10px;
-}
-
