@@ -18,22 +18,26 @@
           </ul>
         <h4>Key Technical Projects</h4>
           <ul>
-            <li><i class="fas fa-laptop-code"></i><strong>Robotics SLAM mapping project</strong> As part of a small team, using python
+            <li><i class="fas fa-laptop-code"></i><strong>Robotics SLAM mapping project</strong><br></br> 
+              As part of a small team, using python
               and ROS (software), I program a “turtle bot 2” for mapping an
               environment whilst moving around and avoiding obstacles. The robot
               then could use the map to navigate the area to a specified location on the
               obtained map. </li><br></br>
-            <li><i class="fas fa-laptop-code"></i><strong>Engineers Without Borders.</strong> Multidisciplinary project working with
+            <li><i class="fas fa-laptop-code"></i><strong>Engineers Without Borders.</strong><br></br>
+              Multidisciplinary project working with
               chemical engineers, mechanical engineers and electrical engineers
               The objective was to design a product to help reduce pollution in Africa.
               At the end, the project was presented to a group of judges. </li><br></br>
-            <li><i class="fas fa-laptop-code"></i><strong>Coffee Shop Simulation</strong>Working with a team, used AGILE methods to
+            <li><i class="fas fa-laptop-code"></i><strong>Coffee Shop Simulation</strong><br></br>
+              Working with a team, used AGILE methods to
               create an application (using Java) that would display a menu and receive
               orders from customers in real time. Git and test driven development
               (using JUnit 4) were used for this project.</li><br></br>
-            <li><i class="fas fa-laptop-code"></i><strong>Swarm Robotics (Dissertation)</strong>Using C++ to simulate different swarms
+            <li><i class="fas fa-laptop-code"></i><strong>Swarm Robotics (Dissertation)</strong><br></br>
+              Using C++ to simulate different swarms
               of robots and find the most efficient swarm size</li><br></br>
-            <li><i class="fas fa-laptop-code"></i><strong>Data Mining and Machine Learning</strong>Learned to work with big datasets
+            <li><i class="fas fa-laptop-code"></i><strong>Data Mining and Machine Learning</strong><br></br>  Learned to work with big datasets
               and how to manipulate them in order to find valuable information. </li><br></br>
           </ul>
     <h3><i class="fas fa-university"></i>Basics on Audio Engineering <br></br>
