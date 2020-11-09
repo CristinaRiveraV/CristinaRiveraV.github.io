@@ -9,6 +9,9 @@
             <li>Java</li>  
               <div class="back skill_bar">
                 <div class="front skill_bar" style="width:90%"></div></div>
+            <li>HTML, PHP and CSS</li>
+              <div class="back skill_bar">
+                <div class="front skill_bar learning" style="width:40%"><p>Learning...</p></div></div>    
             <li>Python</li>
               <div class="back skill_bar">
                 <div class="front skill_bar" style="width:75%"></div></div>
@@ -18,15 +21,13 @@
             <li>UML</li>
               <div class="back skill_bar">
                 <div class="front skill_bar" style="width:55%"></div></div>
-            <li>C#</li>  
-              <div class="back skill_bar">
-                <div class="front skill_bar" style="width:55%"></div></div>
-            <li>HTML, PHP and CSS</li>
-              <div class="back skill_bar">
-                <div class="front skill_bar learning" style="width:40%"><p>Learning...</p></div></div>
             <li>JavaScript</li>
               <div class="back skill_bar">
                 <div class="front skill_bar learning" style="width:20%"><p>Leaning</p></div></div>
+            <li>C#</li>  
+              <div class="back skill_bar">
+                <div class="front skill_bar" style="width:55%"></div></div>
+           
           </ul>
         </section>
         <section name="languages">
