@@ -11,17 +11,18 @@ background-color: rgb(236, 228, 241);
 text-align: center;
 }
 
-
 .start{
 background-color: #000000a1; 
 border: 2px dotted rgb(126, 121, 121);
 margin: auto;
 padding:25px;
-width: 80%;
 font-size: large;
 font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 position: relative;
 top: 85px;
+}
+.intro_text{
+  width: 600px;
 }
 .start samp{
 font-family: 'Press Start 2P', cursive;
