@@ -98,3 +98,7 @@
   font-size: small;
   color:rgb(149, 84, 224);
 }
+/* Display Key responsabilities for work experiece as a list with bulletpounts*/
+.keyresp {
+  display: list-item;
+}
