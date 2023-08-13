@@ -1,1 +1,0 @@
-<?php include "php_files/home.php" ?>

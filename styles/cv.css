@@ -1,53 +1,105 @@
-/* The sidebar menu */
-.sidebar {
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 0; /* Stay on back */
-  top: 85px; /* Stay under the header and menu */
-  left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 0;
+/* Creating the grid**/
+.cv_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(200px, auto);
+  width: 800px;
+  margin: auto;
+  margin-top: 65px;
+  position: relative;
+  top: auto;
+  bottom: 50px;
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
-.accordion {
-    background-color: rgb(52, 51, 56);
-    color: rgb(226, 180, 240);
-    cursor: pointer;
+.third_left, .third{
+  grid-column: 1/2;
+  grid-row: 1;
+} 
 
-    width: 160px;
-    padding: 10px;
-    margin: 0;
-    text-align: center;
-    border: none;
-    font-size: smaller;
+.twothird_right, .twothird{
+  grid-column: 2/ 4;
+  grid-row: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+} 
+.education{
+  grid-column: 1/2;
+  grid-row: 1;
+}
+.workexperience{
+  grid-column: 1/2;
+  grid-row: 2;
+}
+/*Making all items look the same**/
+  /*Backgrounf colour */
+.cv_display{
+  border-radius: 15px;
+  background-color: #00000036; 
+  text-align: left;
+  padding: 15px;
+}
+  /*Image diplay*/
+.display_img img{
+  border-radius: 350px;
+}
+.display_img{
+  width: 80%;
+  margin: auto;
+}
+  /*icons*/
+.fa, .fas, .far{
+  color: rgb(53, 15, 97);
+  padding: 5px;
+}
+  /*Headers*/
+.cv_container h3{
+  padding: 5px;
+  font-size: larger;
+}
+.cv_container h4{
+  padding: 10px;
+}
+  /*text*/
+.cv_container p, .cv_container li{
+    padding-left: 20px;
+  }
+.cv_container ul li{
+  list-style-type:none;
 
-    outline: none;
-    transition: 0.4s;
-    overflow: auto;
-  }
+}
+/*intro text*/
+.intro p{
+  padding-left: 0;
+  
+}
+.intro .email{
+  font-size: 12px;
+}
+.back{
+  background-color: rgba(115, 54, 184, 0.438);
+  width: 90%;
+  margin: auto;
+} 
+.front{
+  background-color: rgb(53, 15, 97);
+  
+}
 
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.accordion:hover {
-    background-color: #ccc;
-    color: rgb(99, 13, 126);
-  }
+.skill_bar{
+  border-radius: 35px;
+  height:18px;
+}
 
-/* Style panels holding the text. Note: hidden by default */
-.panel  {
-    padding: 14px;
-    display: none;
-    overflow: hidden;
-  }
-/* position text panel for a desktop*/  
-  .text_panel { 
-    display: block;
-    margin-left: 160px;
-    z-index: 3;
-  }
-/*Show personal profile when page starts */
-.cv .active{
-  background-color: rgb(167, 140, 54);
-  color: rgb(57, 14, 70);
+.skill_bar p{
+  padding-left: 5px; 
+  font-size: small;
+  color:rgb(149, 84, 224);
+}
+/* Display Key responsabilities for work experiece as a list with bulletpounts*/
+ul.keyresp {
+  display: list-item;
+  list-style-type: circle;
 }
