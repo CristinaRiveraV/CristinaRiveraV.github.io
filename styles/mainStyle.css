@@ -1,0 +1,88 @@
+/*General items*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  body{
+  background-color: rgb(236, 228, 241);
+  text-align: center;
+  }
+  
+  .start{
+  background-color: #000000a1; 
+  border: 2px dotted rgb(126, 121, 121);
+  margin: auto;
+  padding:25px;
+  font-size: large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: relative;
+  top: 85px;
+  }
+  .intro_text{
+    width: 600px;
+  }
+  .start samp{
+  font-family: 'Press Start 2P', cursive;
+  font-size: larger;
+  color: #44ceab;
+  }
+  .start h2{
+  font-size: larger;
+  color: rgb(114, 235, 208);
+  }
+
+/*Header*/
+header{
+  color: rgb(255, 193, 21);
+  background-color: rgb(53, 15, 97);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size:30px;
+  padding: 5px;
+  font-family: Russo One;
+  
+  z-index: 5;
+  position: sticky;
+  top: 0;
+}
+/*Footer*/  
+footer{
+  background-color: rgb(3, 2, 5);
+  color: rgb(202, 181, 221);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+}
+/*Nav Menu*/
+nav{
+  position: sticky;
+  top: 40px;
+  z-index: 8;
+}
+nav ul{
+    background-color: rgb(3, 2, 5);
+    width: 100%;
+    padding: 10px 16px;
+  }
+  
+  nav ul li{
+    list-style-type:none;
+    display: inline-block;
+  }
+  nav ul li a{
+    color: rgb(202, 181, 221);
+    text-decoration: none;
+    padding: 14px 16px;
+    font-family: Bangers;
+  }
+  
+  nav ul li a:hover, nav .active a{
+    background-color: rgb(255, 208, 0);
+    color:rgb(3, 2, 5) ;
+    border-radius: 15px 15px 0px 0px;
+  }      
