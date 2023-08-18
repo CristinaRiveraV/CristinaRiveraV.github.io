@@ -6,6 +6,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 <!--Add script for adding other HTML elements-->
 <script src="/JS/includeHTML.js"></script>
+<script src="/JS/jokeAPI.js"></script>
 
 <head>
   <meta charset="UTF-8">
@@ -21,15 +22,14 @@
 
   <!-- Adding the top of the webpage (Header and nav menu)-->
   <div w3-include-html="..\HTML\topOfPage.htm"> This will be replaced by the Nav Menu. </div>
-  
-  <!--Adding Introduction Paragraph-->
-  <main class="start intro_text">
-    <div class="introduction_text">
-      <h1 title="Hello!"><samp> Hello World!</samp></h1>
-      <h2 title="I'm a tooltip! :D"> Welcome to my <del>first</del> website &#129409;</h2>
-      </div>
-  </main>
 
+  <!--Adding the main body-->
+  <main>
+    <!--Adding Introduction Paragraph-->
+    <div w3-include-html="..\HTML\HomePage\introduction.htm"> This will be replaced by an introduction to the website. </div>
+    <!--Adding Joke Section (uses joke-api)-->
+    <div w3-include-html="..\HTML\HomePage\tellMeAJoke.htm"> This will be replaced by an introduction to the website. </div>
+  </main>
 
   <!-- Adding the bottom of the webpage (Header and nav menu)-->
   <div w3-include-html="..\HTML\bottomOfPage.htm"> This will be replaced by a footer. </div>
