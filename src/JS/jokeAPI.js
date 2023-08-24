@@ -1,9 +1,12 @@
 const api_url = "https://official-joke-api.appspot.com/random_joke";
 
-/*Gets a joke from the API which can be used to displa
+let joke_setup = "";
+let joke_punchline = "";
+
+/*Gets a joke from the API which can be used to display
 returns {type, setup, punchline, id} 
 */
-async function getJoke() {
+export async function getJoke() {
     // Making an API call (request)
     const response = await fetch(api_url)
     .catch(error => console.error('Unable to get items.', error));
@@ -14,28 +17,30 @@ async function getJoke() {
 
     // Retrieving data from JSON
     const joke = data;
+    joke_setup = joke.setup;
+    joke_punchline = joke.punchline;
     // Display the setup of the joke   
-    handleJoke(joke.setup, joke.punchline);
-    document.getElementById("joke_setup").innerText = "TEST" + joke.setup;
+    displayJoke();
    
+   // document.getElementById("joke_question").addEventListener("click", displayPunchline);
 }
 
-export const handleJoke = (setup, punchline) => {
+export function displayJoke() {
 
     // Display the setup of the joke   
-    document.getElementById("joke_setup").innerText = setup;
+    document.getElementById("joke_setup").innerText = joke_setup;
 
     //Display the punchline or button quth question, depending on the joke.
-    let setup_key_word = getFirstWordsFromJokeSetup(setup);
+    let setup_key_word = getFirstWordsFromJokeSetup(joke_setup);
 
     //First show the botton with question: How? | Why? | Who is it? | What?
-    let button_message = getMessageForBotton(setup_key_word);
-    document.getElementById("joke_question").innerHTML = button_message;
+    document.getElementById("joke_question").innerHTML = getMessageForButton(setup_key_word);
+    //document.getElementById("joke_question").onclick = displayPunchline;
     //After the botton is clicked, show the answer or change the prompt at the bagining.
-    displayPunchline(punchline);
+    //displayPunchline(joke_punchline);
 }
 
-export const getFirstWordsFromJokeSetup = setup => {
+export function getFirstWordsFromJokeSetup(setup){
     const setup_split_words = setup.split(" ");
     let first_word = setup_split_words[0];
 
@@ -55,7 +60,8 @@ export const getFirstWordsFromJokeSetup = setup => {
     return first_word;
 }
 
-export const getMessageForButton = keyword => {
+
+export function getMessageForButton(keyword){
     let word = "...";
     if(keyword == null) return word;
     switch (keyword.toString().toLowerCase()){
@@ -77,9 +83,17 @@ export const getMessageForButton = keyword => {
     return word.toString();
 }
 
-function displayPunchline(punchline){
-    //Display the punchline
-    document.getElementById("joke_punchline").innerHTML = punchline;
+//document.getElementById("joke_question").onclick = function() {displayPunchline()};
+
+export function displayPunchline(){
+    var question_button = getElementById("test");
+    question_button.innerText = "TEST";
+    //var newElement = document.createElement('h2');
+    //newElement.textContent = joke_punchline;
+    //newElement.id = "joke_punchline";
+
+//    question_button.replaceWith(newElement);
 }
 
 getJoke();
+//question_button.addEventListener("click", displayPunchline());

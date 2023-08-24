@@ -1,3 +1,6 @@
+@import url("./buttons.css");
+@import url("./contact.css");
+@import url("./cv.css");
 /*General items*/
 * {
     box-sizing: border-box;
@@ -34,7 +37,10 @@
   font-size: larger;
   color: rgb(114, 235, 208);
   }
-
+  .h2{
+    font-size: larger;
+    color: rgb(114, 235, 208);
+    }
 /*Header*/
 header{
   color: rgb(255, 193, 21);
@@ -86,3 +92,4 @@ nav ul{
     color:rgb(3, 2, 5) ;
     border-radius: 15px 15px 0px 0px;
   }      
+  
