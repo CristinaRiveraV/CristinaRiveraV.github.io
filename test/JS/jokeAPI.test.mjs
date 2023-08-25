@@ -1,5 +1,5 @@
-import pkg_expect from '../../node_modules/chai/chai.js';
-import * as jokeAPI from '../../src/JS/jokeAPI.js';
+import pkg_expect from 'chai/chai.js';
+import * as jokeAPI from '../../src/JS/jokeAPI.mjs';
 
 const {expect} = pkg_expect;
 
