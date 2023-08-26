@@ -1,3 +1,5 @@
+"use strict"; 
+
 const api_url = "https://official-joke-api.appspot.com/random_joke";
 
 let joke_setup = "";
@@ -26,7 +28,8 @@ export async function getJoke() {
 
 export function displayJoke() {
     // Display the setup of the joke   
-    document.getElementById("joke_setup").innerText = joke_setup;
+    $("#joke_setup").text(joke_setup);
+
     displayPunchline();
 
 }
@@ -75,7 +78,7 @@ export function getMessageForButton(keyword){
 }
 
 export function displayPunchline(){
-    document.getElementById("joke_punchline").innerText = joke_punchline;
+    $("#joke_punchline").text(joke_punchline);
 }
 
 getJoke();
