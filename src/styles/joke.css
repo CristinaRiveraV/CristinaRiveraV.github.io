@@ -1,0 +1,14 @@
+.joke{
+    background-color: #000000a1; 
+    margin: auto;
+    padding:25px;
+    font-size: large;
+    position: relative;
+}
+.joke_text{
+    font-family: 'Source Code Pro', monospace;
+}
+#joke_setup{
+    font-size:23px;
+    font-weight: bolder;
+}
