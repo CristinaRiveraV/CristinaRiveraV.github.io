@@ -19,25 +19,16 @@ export async function getJoke() {
     const joke = data;
     joke_setup = joke.setup;
     joke_punchline = joke.punchline;
+
     // Display the setup of the joke   
     displayJoke();
-   
-   // document.getElementById("joke_question").addEventListener("click", displayPunchline);
 }
 
 export function displayJoke() {
-
     // Display the setup of the joke   
     document.getElementById("joke_setup").innerText = joke_setup;
+    displayPunchline();
 
-    //Display the punchline or button quth question, depending on the joke.
-    let setup_key_word = getFirstWordsFromJokeSetup(joke_setup);
-
-    //First show the botton with question: How? | Why? | Who is it? | What?
-    document.getElementById("joke_question").innerHTML = getMessageForButton(setup_key_word);
-    //document.getElementById("joke_question").onclick = displayPunchline;
-    //After the botton is clicked, show the answer or change the prompt at the bagining.
-    //displayPunchline(joke_punchline);
 }
 
 export function getFirstWordsFromJokeSetup(setup){
@@ -83,17 +74,8 @@ export function getMessageForButton(keyword){
     return word.toString();
 }
 
-//document.getElementById("joke_question").onclick = function() {displayPunchline()};
-
 export function displayPunchline(){
-    var question_button = getElementById("test");
-    question_button.innerText = "TEST";
-    //var newElement = document.createElement('h2');
-    //newElement.textContent = joke_punchline;
-    //newElement.id = "joke_punchline";
-
-//    question_button.replaceWith(newElement);
+    document.getElementById("joke_punchline").innerText = joke_punchline;
 }
 
 getJoke();
-//question_button.addEventListener("click", displayPunchline());

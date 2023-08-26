@@ -1,6 +1,7 @@
 @import url("./buttons.css");
 @import url("./contact.css");
 @import url("./cv.css");
+@import url("./joke.css");
 /*General items*/
 * {
     box-sizing: border-box;
@@ -14,33 +15,30 @@
   background-color: rgb(236, 228, 241);
   text-align: center;
   }
-  
+  .start_text{
+    font-size: large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
   .start{
   background-color: #000000a1; 
   border: 2px dotted rgb(126, 121, 121);
   margin: auto;
   padding:25px;
-  font-size: large;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   position: relative;
   top: 85px;
   }
   .intro_text{
     width: 600px;
   }
-  .start samp{
+  .hello_world{
   font-family: 'Press Start 2P', cursive;
   font-size: larger;
   color: #44ceab;
   }
-  .start h2{
+.short_intro{
   font-size: larger;
   color: rgb(114, 235, 208);
-  }
-  .h2{
-    font-size: larger;
-    color: rgb(114, 235, 208);
-    }
+}
 /*Header*/
 header{
   color: rgb(255, 193, 21);
